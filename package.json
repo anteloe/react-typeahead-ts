@@ -1,0 +1,20 @@
+{
+  "name": "react-typeahead-ts",
+  "version": "0.0.1",
+  "description": "A typeahead react component written in TypeScript. Makes the use of typeahead.js in a TypeScript based React project easy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typeahead",
+    "twitter",
+    "typescript",
+    "react"
+  ],
+  "author": "anteloe",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.1.0"
+  }
+}

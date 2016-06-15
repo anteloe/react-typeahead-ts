@@ -1,0 +1,7 @@
+{
+  "globalDependencies": {
+    "jquery": "registry:dt/jquery#1.10.0+20160417213236",
+    "react": "registry:dt/react#0.14.0+20160602151522",
+    "typeahead": "registry:dt/typeahead#0.11.1+20160317120654"
+  }
+}
