@@ -1,11 +1,10 @@
-/// <reference path="./typings/index.d.ts" />
 import * as React from 'react'
 
 import T = Twitter.Typeahead;
 
-interface ITypeAheadState{}
+export interface ITypeAheadState{}
 
-interface ITypeAheadProps<T>{
+export interface ITypeAheadProps<T>{
     options: Twitter.Typeahead.Options;
     data: Twitter.Typeahead.Dataset<T>;
     className?: string;

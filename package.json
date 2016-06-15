@@ -1,8 +1,12 @@
 {
   "name": "react-typeahead-ts",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A typeahead react component written in TypeScript. Makes the use of typeahead.js in a TypeScript based React project easy.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anteloe/react-typeahead-ts"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
