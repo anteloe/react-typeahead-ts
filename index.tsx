@@ -1,7 +1,5 @@
 import * as React from 'react'
 
-import T = Twitter.Typeahead;
-
 export interface ITypeAheadState{}
 
 export interface ITypeAheadProps<T>{
@@ -21,6 +19,11 @@ export class TypeAhead<T> extends React.Component<ITypeAheadProps<T>, ITypeAhead
     }
 
     render(){
-        return <input type='text' onChange={this.props.onChange} placeholder={this.props.placeholder} ref={this.bindTypeAhead.bind(this)} />;
+        return <input 
+                    type='text' 
+                    className={this.props.className} 
+                    onChange={this.props.onChange} 
+                    placeholder={this.props.placeholder} 
+                    ref={this.bindTypeAhead.bind(this)} />;
     }
 }

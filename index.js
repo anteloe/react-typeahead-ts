@@ -15,7 +15,7 @@ var TypeAhead = (function (_super) {
         typeahead.bind('typeahead:selected', this.props.onSelected);
     };
     TypeAhead.prototype.render = function () {
-        return React.createElement("input", {type: 'text', onChange: this.props.onChange, placeholder: this.props.placeholder, ref: this.bindTypeAhead.bind(this)});
+        return React.createElement("input", {type: 'text', className: this.props.className, onChange: this.props.onChange, placeholder: this.props.placeholder, ref: this.bindTypeAhead.bind(this)});
     };
     return TypeAhead;
 }(React.Component));
