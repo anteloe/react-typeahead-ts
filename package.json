@@ -1,6 +1,6 @@
 {
   "name": "react-typeahead-ts",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A typeahead react component written in TypeScript. Makes the use of typeahead.js in a TypeScript based React project easy.",
   "main": "index.js",
   "typings": "./typings/index.d.ts",
